@@ -1,8 +1,109 @@
-*{
-    padding: 0;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0px 200px;
+    
 }
- #head{
-    text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- }
+#first{
+   text-align: center; 
+   margin-bottom: 60px;
+   font-size: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+  
+}
+#caption{
+    margin-bottom: 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #000000; 
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.personal-data p {
+    margin: 0;
+    font-size: 14px;
+}
+img{
+   width: 150px;
+    height: 150px;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+}
+.section{
+    margin-bottom: 20px;
+}
+.h2{
+    background-color: rgb(221, 219, 219);
+    margin: 0;
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+.obj-text {
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    padding: 0;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #999797;
+}
+
+table th {
+    background-color: #e0dbdb;
+}
+
+.qualification, .experience{
+    padding-left: 25px;
+    margin-top: 5px;
+}
+
+.qualification li, .experience li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.info {
+    
+    font-size: 14px;
+}
+.personal{
+    display: flex;
+    justify-content: flex-start;
+}
+.personal p{
+    font-size: 14px;
+}
+
+
+.signature {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.signature p {
+    
+    padding-top: 3px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+}
+
